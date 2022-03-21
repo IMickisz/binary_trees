@@ -9,14 +9,14 @@
 
 int max(int a, int b)
 {
-        if (a > b)
-                return (a);
-        else
-                return (b);
+	if (a > b)
+		return (a);
+	else
+		return (b);
 }
 
 /**
- * minus - return the -1
+ * comper - recursion for comper
  * @tree: the magnus variable
  * Return: result minus 1
  */
