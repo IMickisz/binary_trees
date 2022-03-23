@@ -29,11 +29,11 @@ int findADepth(const binary_tree_t *tree)
 int isPerfectRec(const binary_tree_t *tree, int depth, int level)
 {
 	if (tree == NULL)
-		return (1);
+		return (0);
 	if (tree->left == NULL && tree->right == NULL)
 	{
 		if (depth == level)
-			return ();
+			return (0);
 		else
 			return (1);
 	}
