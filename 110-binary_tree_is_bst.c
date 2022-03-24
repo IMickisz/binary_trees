@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
- * binary_bst_traverse - function that traverses down the tree keeping track
+ * is_bst - function that traverses down the tree keeping track
  * of the narrowing min and max allowed values
  * @node: pointer to the node of the root to check
  * @min: min value of a node
